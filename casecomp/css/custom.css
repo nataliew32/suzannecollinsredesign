@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+
+*{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Kanit', sans-serif;
+}
+.navbar .nav-item:hover .dropdown-menu{ display: block; 
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.7rem;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size:2.5rem;
+    padding: 15px;
+    color: #A98F48;
+}
+
+h3 {
+    font-family:'Bebas Neue', cursive;
+    padding: 10px;
+    font-size:2rem;
+    
+}
+
+h4 { 
+    text-align:center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem;
+}
+
+h5{
+    font-size: .8rem;
+    padding: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.checked {
+  color: goldenrod;
+}
+
+.footer {
+    background-color: black;
+    color:whitesmoke;
+    padding-top: 10px;
+}
+
+.navbar {
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.nav-link {
+    text-transform:uppercase;
+    letter-spacing: .5rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+a:hover{
+    color: #6B0303!important;
+}
+
+.btn-primary {
+    text-align: center;
+    background-color: #A98F48;
+    color:white;
+    border-color:white;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    color:white !important;
+    border-color:white;
+    
+}
+.btn-danger {
+    color: white;
+    background-color: #6B0303;
+    border-color:white;
+    margin-bottom: 15px;
+}
+
+.btn-danger:hover {
+    background-color:#6B0303;
+    border-color: white;
+}
+
+.btn-outline-secondary {
+    color: whitesmoke;
+    border-color: darkred;
+}
+
+.btn-outline-secondary:hover {
+    background-color: darkred;
+    color: white !important;
+    border-color: darkred;
+}
+
+.btn-secondary {
+    background-color: #A98F48;
+    color:white;
+    border-color:white;
+}
+
+.btn-secondary:hover {
+    background-color: black;
+    color:white !important;
+    border-color:white;
+}
+
+.btn-dark:hover {
+    background-color: #6B0303;
+}
+
+
+img {
+    padding: 10px;
+}
+
+p {
+    padding: 15px;
+    padding-top: 20px;
+}
+
+.card{
+    border-color: #6B0303;
+    border-width: thin;
+}
+
+.fa-star {
+    padding-top: 20px;
+}
